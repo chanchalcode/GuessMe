@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button2" android:layout_gravity="center_vertical"
+            android:onClick="onClick"
+            />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In this game you will be asked to guess a word in certain number of attempt, whose number of letter will be given. If you will guess the correct word in given attempt then you win.
+
+
+             Now start playing."
+
+            android:id="@+id/button" android:layout_gravity="left"/>
+            android:id="@+id/textView"/>
+</LinearLayout>
